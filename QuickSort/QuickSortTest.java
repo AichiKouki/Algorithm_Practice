@@ -5,6 +5,8 @@ public class QuickSortTest {
       print_data(data);//ソート前の配列の中身を表示
       quick_sort(data, 0, data.length-1);//クイックソート処理。-1は、配列が0から始まる関係で-1している
       print_data(data);//クイックソートした後の配列の中身を表示
+      //文字列が表示されない
+      System.out.println("愛知");
   }
     // 配列dのleftからrightまでの間のデータ列をクイックソートする
     //再帰処理が行われるので、一回交換処理を行うたびにこの関数は呼ばれる。
